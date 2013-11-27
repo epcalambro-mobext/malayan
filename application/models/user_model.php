@@ -10,12 +10,14 @@
 			$this->load->database();
 		}
 
-		public function insertRecord($gender, $weight, $height, $mHistory, $hId)
+		public function insertRecord($gender, $weight, $height, $amount, $limitAmount, $mHistory, $hId)
 		{
 			$data = array(
 					'U_Gender' => $gender,
 					'U_Weight' => $weight,
 					'U_Height' => $height,
+					'U_Desired_Amount' => $amount,
+					'U_Limit_Amount' => $limitAmount,
 					'U_Medical_History' => $mHistory,
 					'H_Id' => $hId 
 					);
