@@ -7,6 +7,7 @@ class Home extends CI_Controller {
 		parent::__construct();
 
 		$this->load->model('user_model','user');
+		$this->load->helper('url');
 	}//end construct()
 
 	public function index()

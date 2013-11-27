@@ -28,3 +28,143 @@ img {max-width: 100%; height: auto; margin-left: auto; margin-right: auto; text-
 .error{
 	border-color: red !important;
 }
+
+#regForm{
+	word-wrap:break-word;
+	font-size:23px;
+	text-shadow:none;
+	
+}
+
+#home{
+	background: url('../images/home_background.png');
+	background-size: 100% 100%;
+}
+
+#banner{
+	max-width: 70%;
+	margin-top: 10px;
+}
+
+#gender, #age, #history,{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#weight{
+	font-size: 22px;
+}
+
+.age{
+	display : inline-block;
+	margin-top: -40px;
+	height:50px;
+}
+.age div.ui-input-text{
+	max-width: 40px;
+	border-radius: 0px;
+	display : inline-block;
+	box-shadow: none !important;
+	border: 0;
+	background-color: transparent !important;
+	text-align: center;
+	padding-right: 0;
+	text-decoration: underline;
+	
+}
+
+.weight{
+	display : inline-block;
+	margin-top: -40px;
+	height:50px;
+}
+.weight div.ui-input-text{
+	max-width: 40px;
+	border-radius: 0px;
+	display : inline-block;
+	box-shadow: none !important;
+	border: 0;
+	background-color: transparent !important;
+	text-align: center;
+	padding-right: 0;
+	text-decoration: underline;
+	
+}
+
+.city{
+	height:50px;
+	display : inline-block;
+	margin-top: -40px
+}
+.city div.ui-input-text{
+    min-width: 50px;
+    max-width: 120px;
+    transition: width 0.25s;
+	resize: horizontal;
+	border-radius: 0px;
+	display : inline-block;
+	box-shadow: none !important;
+	border: 0;
+	font-size:22px;
+	background-color: transparent !important;
+	text-align: center;
+	padding: 0;
+	text-decoration: underline;
+	text-align: center;
+
+}
+
+.desiredAmount{
+	height:50px;
+	display : inline-block;
+}
+.desiredAmount div.ui-input-text{
+    max-width: 200px
+	border-radius: 0px;
+	display : inline-block;
+	box-shadow: none !important;
+	border: 0;
+	font-size:22px;
+	background-color: transparent !important;
+	text-align: center;
+	padding: 0;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: -20px;
+
+}
+
+.premiumAmount{
+	height:50px;
+	display : inline-block;
+
+}
+.premiumAmount div.ui-input-text{
+    max-width: 200px;
+	border-radius: 0px;
+	display : inline-block;
+	box-shadow: none !important;
+	border: 0;
+	font-size:22px;
+	background-color: transparent !important;
+	text-align: center;
+	padding: 0;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: -20px
+
+}
+
+
+.ui-body-c{
+	text-shadow:none;
+}
+
+#historyPopup{
+	min-height: 100px;
+}
+
+#arrow-down{
+	max-width: 60%;
+	margin-bottom: 10px;
+}
