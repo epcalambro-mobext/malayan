@@ -13,7 +13,6 @@ class Home extends CI_Controller {
 	{
 
 		$data['page'] = 'home_view';
-		$this->user_model->insertRecord('12', '23', '23', 'adsadsadasd', '1');
 		$this->load->view('page_holder',$data);
 
 	}//end index()
