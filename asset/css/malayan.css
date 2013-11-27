@@ -116,6 +116,7 @@ img {max-width: 100%; height: auto; margin-left: auto; margin-right: auto; text-
 
 .desiredAmount{
 	height:50px;
+	width:100%;
 	display : inline-block;
 }
 .desiredAmount div.ui-input-text{
@@ -136,6 +137,7 @@ img {max-width: 100%; height: auto; margin-left: auto; margin-right: auto; text-
 
 .premiumAmount{
 	height:50px;
+	width:100%;
 	display : inline-block;
 
 }
@@ -158,6 +160,7 @@ img {max-width: 100%; height: auto; margin-left: auto; margin-right: auto; text-
 
 .ui-body-c{
 	text-shadow:none;
+	color: black;
 }
 
 #historyPopup{
@@ -167,4 +170,29 @@ img {max-width: 100%; height: auto; margin-left: auto; margin-right: auto; text-
 #arrow-down{
 	max-width: 60%;
 	margin-bottom: 10px;
+}
+
+
+
+#pay_now_page{
+	background: url('../images/bg_paynow.jpg');
+	background-size: 100% 100%;
+}
+
+#grid{
+	background: url('../images/bg_opaque.png');
+	background-size: 100% 100%;
+}
+
+#icon-image{
+	max-width: 70%;
+	margin: 10px;
+}
+
+#mobileNumbPay{
+	width:80%;
+	background: url('../images/bg_opaque.png');
+	padding: 0;
+	border: 0;
+	height: 25px;
 }

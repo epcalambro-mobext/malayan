@@ -4,27 +4,53 @@
     <img src="<?php echo base_url();?>asset/images/home_banner.png" id="banner">
 
   	<div id="regForm" style="margin-top:40px;">
-            <div class="age" style="margin-bottom:-40px">
-                Hi!, I am a <u><label id="gender">GENDER</label></u>.
-            </div>
-            <div class="age">
-                I'm <input type="tel" style="font-size:22px;color:black" value="13" id="age" maxlength="2" /> years old.
-            </div>
-            <div class="weight">
-               I weight  <input type="tel" id="weight" value="0" style="font-size:22px;color:black" maxlength="3" data-autosize-input='{ "space": 40 }'>
-            </div>Kg.
-            <div class="city">
-                I live in <input type="text" id="city" value="City" style="font-size:22px;color:black">.
-            </div>
-            <div>
-                 I have a past history of <u><label id="history">HISTORY</label></u>.
-            </div>
-            <div class="desiredAmount">
-                 My ideal coverage will be Php <input type="tel" style="font-size:22px;color:black" style="font-size:22px;color:black" value="0" id="desiredAmount" />
-            </div>
-            <div class="premiumAmount">
-                 with a premium of Php <input type="tel" style="font-size:22px;color:black" value="0" id="premiumAmount" />
-            </div>
+            
+            
+            
+            
+            
+            
+            
+
+            <ul style="list-style: none; list-style-type: none;">
+                <li style="display:inline-block; list-style: none; list-style-type: none;">
+                  <div class="age" style="margin-bottom:-40px">
+                    Hi!, I am a <u><label id="gender">GENDER</label></u>.
+                </div>
+                </li>
+                
+                <li style="display:inline-block; list-style: none; list-style-type: none;">
+                  <div class="age">
+                    I'm <input type="tel" style="font-size:22px;color:black" placeholder="13" id="age" maxlength="2" /> years old.
+                </div>
+                </li>
+                <li style="display:inline-block; list-style: none; list-style-type: none;">
+                  <div class="weight">
+                     I weight  <input data-role"none" type="tel" id="weight" placeholder="0" style="font-size:22px;color:black" maxlength="3" data-autosize-input='{ "space": 40 }'>Kg.
+                  </div>
+                </li>
+                <li style="display:inline-block; list-style: none; list-style-type: none;">
+                  <div class="city">
+                    I live in <input type="text" id="city" placeholder="City" style="font-size:22px;color:black">.
+                </div>
+                </li>
+                <li style="display:inline-block; list-style: none; list-style-type: none;">
+                    <div>
+                       I have a past history of <u><label id="history">HISTORY</label></u>.
+                  </div>
+                </li>
+                <li style="display:inline-block; list-style: none; list-style-type: none;">
+                  <div class="desiredAmount">
+                       My ideal coverage will be Php <input type="tel" style="font-size:22px;color:black" placeholder="0" id="desiredAmount" />
+                  </div>
+                </li>
+                <li style="display:inline-block; list-style: none; list-style-type: none;">
+                  <div class="premiumAmount">
+                       with a premium of Php <input type="tel" style="font-size:22px;color:black" placeholder="0" id="premiumAmount" />
+                  </div>
+                </li>
+                
+            </ul>
     </div>
   </div><!-- end content -->
   <div data-role="footer" data-theme="none" data-position="fixed">
