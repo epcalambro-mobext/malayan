@@ -190,9 +190,23 @@ img {max-width: 100%; height: auto; margin-left: auto; margin-right: auto; text-
 }
 
 #mobileNumbPay{
-	width:80%;
+	width:95%;
 	background: url('../images/bg_opaque.png');
 	padding: 0;
 	border: 0;
 	height: 25px;
+}
+
+#gateway{
+	background: url('../images/bg_payment_gateway.jpg');
+	background-size: 100% 100%;
+}
+
+#cardNumber, #secCode{
+	width:95%;
+	background: url('../images/bg_opaque.png');
+	padding: 0;
+	border: 0;
+	height: 35px;
+	margin-top: 10px;
 }

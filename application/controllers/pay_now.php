@@ -14,5 +14,12 @@
 			$this->load->view('pay_now');
 			$this->load->view('footer');
 		}
+
+		function gateway()
+		{
+			$this->load->view('header');
+			$this->load->view('pay_gateway');
+			$this->load->view('footer');
+		}
 	}
 ?>
