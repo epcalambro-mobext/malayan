@@ -6,6 +6,7 @@
 		public function __construct()
 		{
 			parent::__construct();
+			$this->load->helper('url');
 		}
 
 		function index()
@@ -19,6 +20,13 @@
 		{
 			$this->load->view('header');
 			$this->load->view('pay_gateway');
+			$this->load->view('footer');
+		}
+
+		function plan()
+		{
+			$this->load->view('header');
+			$this->load->view('plan');
 			$this->load->view('footer');
 		}
 	}
